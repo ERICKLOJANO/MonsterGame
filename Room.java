@@ -14,6 +14,7 @@ public class Room {
 	public void enter(Player player) {
 		if (monster.isAlive() == true) {
 			System.out.println("Player name is " + player.name + " This room is " + this.description + " and has " + this.monster);
+			player.attack(monster); 
 		}
 	}
 	public boolean isComplete() {
