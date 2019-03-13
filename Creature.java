@@ -17,11 +17,12 @@ public class Creature {
 		damage = 0;
 		room = null;
 	}
-	public Creature(String creatureName, String creatureDescription, int creatureHitPoints, int creatureDamage){
+	public Creature(String creatureName, String creatureDescription, int creatureHitPoints, int creatureDamage, Room room){
 		name = creatureName;
 		description = creatureDescription;
 		hitPoints = creatureHitPoints;
 		damage = creatureDamage;
+		this.room = null;
 	}
 	
 	//G E T T E R S

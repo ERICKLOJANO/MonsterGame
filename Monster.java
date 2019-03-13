@@ -6,7 +6,7 @@ public class Monster extends Creature{
 	private int	enrageThreshold;
 
 	public Monster(String name, String description, int hp, int damage, boolean isEnraged, int enrageThreshold){
-	super();                          
+	super(name,description,hp,damage,null);                          
 	isEnraged = false;
 	enrageThreshold = 0;	
 	}
