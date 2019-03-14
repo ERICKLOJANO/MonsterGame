@@ -1,7 +1,8 @@
 package gameinterfaces;
 
 public class Player extends Creature {
-	protected int healAmount;
+
+protected int healAmount;
 	
 	public Player(String n, String d, int hp, int damage, int healAmount){
 		super(n,d,hp,damage,null);
@@ -11,7 +12,5 @@ public class Player extends Creature {
 	public void heal() {
 		this.hitPoints += healAmount; //hitpoints = hitpoints + healamount
 	}
-
-	
 	
 }

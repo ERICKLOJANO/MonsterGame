@@ -1,8 +1,8 @@
 package gameinterfaces;
 
 public class TreasureRoom extends Room {
-	
-	public String Treasure;
+
+public String Treasure;
 	
 	public TreasureRoom(String description, Monster monster, String Treasure) {
 		super(2, Treasure, monster);
@@ -19,7 +19,6 @@ public class TreasureRoom extends Room {
 		else {
 			System.out.println("You explored the room and found the hidden treasure!");
 		}
-	}
-
 	
+	}
 }

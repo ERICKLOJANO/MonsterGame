@@ -40,8 +40,6 @@ public class Battle {
 			System.out.println("The player has been killed by the monster. Game over");
 		}
 	}
-		
+	
+	
 }
-	
-	
-

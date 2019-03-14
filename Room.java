@@ -28,6 +28,5 @@ public class Room {
 	   	return String.format("roomIndex %5d, description %20s, monster %10s", roomIndex, description, monster); 	
 	    
 	    }
-
 	
 }

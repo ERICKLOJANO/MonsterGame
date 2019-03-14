@@ -1,6 +1,6 @@
 package gameinterfaces;
 
-public class Monster extends Creature{
+public class Monster extends Creature {
 
 	private boolean isEnraged;          
 	private int	enrageThreshold;
@@ -21,6 +21,5 @@ public class Monster extends Creature{
 			this.damage = damage * 2;
 		}
 	}
-
 	
 }

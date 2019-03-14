@@ -2,7 +2,6 @@ package gameinterfaces;
 
 public class Creature {
 
-
 	public String name;
 	public String description;
 	public int hitPoints;
@@ -50,7 +49,7 @@ public class Creature {
 	
 	@Override
 		public String toString() {
-			return String.format("name %15s, description %20s, hitPoints %03d, damage %02d, name, description, hitPoints, damage);");
+			return String.format("name %15s, description %20s, hitPoints %03d, damage %02d", name, description, hitPoints, damage);
 		}
 	
 	
@@ -73,6 +72,7 @@ public class Creature {
 	
 		public void attack(Creature creature){
 			System.out.println(this.name + " attacks target " + creature.name + " dealing " + damage + " damage");
+			//use takedamage
 		}
 		
 		public boolean isAlive(){
@@ -94,5 +94,6 @@ public class Creature {
 	   		
 	   		
 	}
+	
+	
 }
-
